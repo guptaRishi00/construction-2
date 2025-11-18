@@ -15,7 +15,7 @@
     &-right {
         &-title {
             .subtitle {
-                border-color: #474644;
+                border-color: var(--border-color-3);
                 color: var(--text-white);
             }
             h2 {
@@ -36,10 +36,11 @@
             .icon {
                 &:not(.collapsed) {
                     background: var(--primary-color-1);
-                    color: var(--color-1);
+                    color: var(--text-white);
                     &::after {
                         content: "\f068";
-                        background: #DFA22C;
+                        background: var(--primary-color-2);
+                        color: var(--primary-color-1);
                     }
                 }
             }
@@ -68,11 +69,11 @@
                 position: absolute;
                 top: 50%;
                 transform: translateY(-50%);
-                color: var(--color-1);
+                color: var(--primary-color-1);
                 right: 20px;
                 font-size: 18px;
                 transition: 0.4s;
-                background: var(--primary-color-1);
+                background: var(--primary-color-2);
                 width: 26px;
                 height: 26px;
                 border-radius: 50%;

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4967ba0d.css",
-    "main.js": "/static/js/main.6db9478f.js",
+    "main.css": "/static/css/main.e3e76d17.css",
+    "main.js": "/static/js/main.6d98add8.js",
     "static/js/488.4158332d.chunk.js": "/static/js/488.4158332d.chunk.js",
     "static/media/flaticon_flexitype.svg?": "/static/media/flaticon_flexitype.d610e2c8e60c07413c38.svg",
     "static/media/fa-thin-100.ttf": "/static/media/fa-thin-100.5c968f9cdf977398b41b.ttf",
@@ -21,19 +21,23 @@
     "static/media/fa-sharp-light-300.woff2": "/static/media/fa-sharp-light-300.1da656d9b2468ed6461f.woff2",
     "static/media/fa-sharp-regular-400.woff2": "/static/media/fa-sharp-regular-400.75693527e7cf52886ebf.woff2",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.9ec24c50410b6d5138b7.woff2",
+    "static/media/aboutTwo.jpg": "/static/media/aboutTwo.c8fa17188a915b5ca014.jpg",
     "static/media/fa-sharp-solid-900.woff2": "/static/media/fa-sharp-solid-900.a5240a30279f1fe6c1d0.woff2",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.bb8a10b0705432f301de.ttf",
+    "static/media/heroBanner.jpg": "/static/media/heroBanner.4e62dd5f1c3c5ebba059.jpg",
     "static/media/flaticon_flexitype.eot?": "/static/media/flaticon_flexitype.14f5e98f7bec60b85c24.eot",
     "static/media/flaticon_flexitype.ttf?": "/static/media/flaticon_flexitype.ec1e1235dc5478f1e6a7.ttf",
+    "static/media/servicesOne.jpg": "/static/media/servicesOne.0b16f0f2c9f0a2ef78e4.jpg",
+    "static/media/aboutOne.jpg": "/static/media/aboutOne.a8ab3dad7dcc3d51dee3.jpg",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.5e7b19421dd30c3feeea.woff2",
+    "static/media/experience.jpg": "/static/media/experience.8be6495061d6954be7fa.jpg",
     "static/media/flaticon_flexitype.woff?": "/static/media/flaticon_flexitype.98b82358fe946ada33cf.woff",
     "static/media/flaticon_flexitype.woff2?": "/static/media/flaticon_flexitype.c80de7bd222164528bfb.woff2",
     "static/media/banner-shape.png": "/static/media/banner-shape.66524b1dc165498a652a.png",
+    "static/media/chooseOne.jpg": "/static/media/chooseOne.d9f3946f09be6408892e.jpg",
     "static/media/banner-1.jpg": "/static/media/banner-1.c9088da2e5254f6abdcb.jpg",
     "static/media/banner-2.jpg": "/static/media/banner-2.c9088da2e5254f6abdcb.jpg",
     "static/media/banner-3.jpg": "/static/media/banner-3.c9088da2e5254f6abdcb.jpg",
-    "static/media/banner.jpg": "/static/media/banner.de9c56ccf0bab64c52b2.jpg",
-    "static/media/video.jpg": "/static/media/video.2df7c74d49aa90997b6d.jpg",
     "static/media/breadcrumb.jpg": "/static/media/breadcrumb.9f91317d51ef5e615566.jpg",
     "static/media/portfolio-1.jpg": "/static/media/portfolio-1.7858cabeca7836cf2378.jpg",
     "static/media/portfolio-2.jpg": "/static/media/portfolio-2.7858cabeca7836cf2378.jpg",
@@ -66,7 +70,6 @@
     "static/media/member-4.jpg": "/static/media/member-4.ae814aba51f1234ac1d2.jpg",
     "static/media/member-5.jpg": "/static/media/member-5.ae814aba51f1234ac1d2.jpg",
     "static/media/award.png": "/static/media/award.23a3c7992e88e0d068c5.png",
-    "static/media/image-1.jpg": "/static/media/image-1.f208de3c0f2ddae7621c.jpg",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.32ccbdff2ea10853c22c.ttf",
     "static/media/image-2.jpg": "/static/media/image-2.20b6e4f551fb26ce679e.jpg",
     "static/media/content.png": "/static/media/content.603998eb6e946da6dbde.png",
@@ -76,12 +79,12 @@
     "static/media/star.svg": "/static/media/star.64b95c0b54303b73b887e56461343644.svg",
     "index.html": "/index.html",
     "static/media/star-dark.svg": "/static/media/star-dark.64bd11a4eb8f16ce65b310144e1fb285.svg",
-    "main.4967ba0d.css.map": "/static/css/main.4967ba0d.css.map",
-    "main.6db9478f.js.map": "/static/js/main.6db9478f.js.map",
+    "main.e3e76d17.css.map": "/static/css/main.e3e76d17.css.map",
+    "main.6d98add8.js.map": "/static/js/main.6d98add8.js.map",
     "488.4158332d.chunk.js.map": "/static/js/488.4158332d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4967ba0d.css",
-    "static/js/main.6db9478f.js"
+    "static/css/main.e3e76d17.css",
+    "static/js/main.6d98add8.js"
   ]
 }

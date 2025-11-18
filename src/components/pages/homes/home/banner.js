@@ -19,7 +19,7 @@ const BannerOne = () => {
           <div className="col-xl-7 col-lg-7">
             <div className="banner__one-content">
               <span className="subtitle wow fadeInUp" data-wow-delay=".2s">
-                <i className="fas fa-helmet-safety"></i> Premium Construction
+                <i className="fas fa-helmet-safety"></i> Premium Constructions
                 Services
               </span>
 

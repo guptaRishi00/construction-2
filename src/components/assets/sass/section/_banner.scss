@@ -1,10 +1,6 @@
 /*==========================================================================
 * Banner One CSS - Blue, Yellow & White Theme with Image
 ==========================================================================*/
-// Local Theme Variables
-$theme-blue: #00235b;
-$theme-yellow: var(--primary-color-1);
-$theme-white: #ffffff;
 
 .banner__one {
   position: relative;
@@ -12,7 +8,7 @@ $theme-white: #ffffff;
   z-index: 1;
   padding-top: 180px;
   padding-bottom: 180px;
-  background-color: $theme-blue;
+  background-color: var(--primary-color-1);
 
   // Background Shape Layer
   &-bg {
@@ -40,35 +36,35 @@ $theme-white: #ffffff;
       font-weight: 700;
       font-size: 15px;
       text-transform: uppercase;
-      color: $theme-yellow;
+      color: var(--primary-color-2);
       letter-spacing: 2px;
       margin-bottom: 25px;
-      background: rgba($theme-white, 0.08);
+      background: rgba(255, 255, 255, 0.08);
       padding: 8px 20px;
       border-radius: 4px;
-      border-left: 4px solid $theme-yellow;
+      border-left: 4px solid var(--primary-color-2);
 
       i {
-        color: $theme-white;
+        color: var(--text-white);
       }
     }
 
     h1 {
       font-size: 70px;
       line-height: 1.1;
-      color: $theme-white;
+      color: var(--text-white);
       font-weight: 700;
       margin-bottom: 30px;
 
       .highlight {
-        color: $theme-yellow;
+        color: var(--primary-color-2);
       }
     }
 
     p {
       font-size: 18px;
       line-height: 32px;
-      color: rgba($theme-white, 0.85);
+      color: rgba(255, 255, 255, 0.85);
       max-width: 600px;
       margin-bottom: 45px;
     }
@@ -86,15 +82,15 @@ $theme-white: #ffffff;
         justify-content: center;
         gap: 10px;
         padding: 18px 42px;
-        background: $theme-yellow;
-        color: $theme-blue;
+        background: var(--primary-color-2);
+        color: var(--primary-color-1);
         font-family: var(--heading-font);
         font-weight: 700;
         text-transform: uppercase;
         font-size: 16px;
         letter-spacing: 0.5px;
         border-radius: 4px;
-        border: 2px solid $theme-yellow;
+        border: 2px solid var(--primary-color-2);
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         cursor: pointer;
 
@@ -218,14 +214,14 @@ $theme-white: #ffffff;
         .icon {
           width: 60px;
           height: 60px;
-          background: rgba($theme-yellow, 0.15);
+          background: rgba(1, 68, 145, 0.15);
           border-radius: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
           i {
             font-size: 24px;
-            color: darken(#ffbf43, 10%);
+            color: $theme-blue;
           }
         }
 
@@ -239,7 +235,7 @@ $theme-white: #ffffff;
           }
           p {
             font-size: 15px;
-            color: #666;
+            color: var(--body-color);
             margin: 5px 0 0;
             font-weight: 600;
             text-transform: uppercase;

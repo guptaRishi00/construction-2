@@ -65,7 +65,7 @@
         padding: 40px;
         background: var(--bg-white);
         border-radius: 10px;
-        box-shadow: 0 0 70px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 70px var(--shadow-light);
         i {
             display: inline-block;
             font-size: 70px;
@@ -105,7 +105,7 @@
     overflow: hidden;
     &-title {
         .subtitle {
-            border-color: #474644;
+            border-color: var(--border-color-3);
             color: var(--text-white);
         }
         h2 {
@@ -228,7 +228,7 @@
     background: var(--color-1);
     &-title {
         .subtitle {
-            border-color: #474644;
+            border-color: var(--border-color-3);
             color: var(--text-white);
         }
         h2 {

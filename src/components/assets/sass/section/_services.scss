@@ -21,15 +21,16 @@
             margin-top: 25px;
         }
         &:hover {
-            background: var(--color-1);
+            background: var(--primary-color-1);
+            border-color: var(--primary-color-1);
             .more_btn,
             > i {
-                color: var(--primary-color-1);
+                color: var(--primary-color-2);
             }
             h4 a {
                 color: var(--text-white);
                 &:hover {
-                    color: var(--primary-color-1);
+                    color: var(--primary-color-2);
                 }
             }
         }
@@ -55,7 +56,12 @@
             border-radius: 50%;
         }
         &:hover {
-            background: var(--color-1);
+            background: var(--primary-color-1);
+            border-color: var(--primary-color-1);
+            > i {
+                background: var(--primary-color-2);
+                color: var(--primary-color-1);
+            }
         }
     }
 }
@@ -66,7 +72,7 @@
     background: var(--color-1);
     &-title {
         .subtitle {
-            border-color: #474644;
+            border-color: var(--border-color-3);
             color: var(--text-white);
         }
         h2 {
@@ -83,7 +89,7 @@
                 color: var(--color-1);
                 i {
                     color: var(--color-1);
-                    background: #F1F1F1;
+                    background: var(--bg-white);
                 }
             }
         }
@@ -132,7 +138,7 @@
     overflow: hidden;
     &-title {
         .subtitle {
-            border-color: #474644;
+            border-color: var(--border-color-3);
             color: var(--text-white);
         }
         h2 {
@@ -146,7 +152,7 @@
                 color: var(--color-1);
                 i {
                     color: var(--color-1);
-                    background: #F1F1F1;
+                    background: var(--bg-white);
                 }
             }
         }
@@ -165,11 +171,12 @@
             color: var(--text-white);
         }
         &:hover {
-            background: var(--primary-color-1);
+            background: var(--primary-color-2);
+            border-color: var(--primary-color-2);
             .more_btn,
             h4 a,
             > i {
-                color: var(--text-heading-color);        
+                color: var(--primary-color-1);        
             }            
         }
     }
@@ -191,6 +198,7 @@
             gap: 8px;
             i {
                 display: inline-flex;
+                color: var(--primary-color-1);
             }
             &:last-child {
                 margin-bottom: 0;

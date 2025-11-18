@@ -4,7 +4,7 @@
 .header__area {
     padding: 20px 0;
     background: var(--primary-color-1);
-    border-bottom: 1px solid #E5B142;
+    border-bottom: 1px solid var(--primary-color-2);
     &-menubar {
         display: flex;
         justify-content: space-between;
@@ -38,7 +38,7 @@
                         margin: 0 25px;
                         &:hover {
                             > a {
-                                color: var(--color-1);
+                                color: var(--primary-color-2);
                             }
                             > .sub-menu {
                                 transform: translateY(0);
@@ -74,7 +74,7 @@
                                     &::after {
                                         position: absolute;
                                         content: '';
-                                        background: var(--primary-color-1);
+                                        background: var(--primary-color-2);
                                         width: 0;
                                         transition: 0.4s;
                                         height: 1px;
@@ -88,9 +88,9 @@
                                 }
                                 &:hover {
                                     > a {
-                                        color: var(--primary-color-1);
+                                        color: var(--primary-color-2);
                                         &::before {
-                                            color: var(--primary-color-1);
+                                            color: var(--primary-color-2);
                                         }
                                         &::after {
                                             width: 100%;
@@ -115,7 +115,7 @@
                             }
                         }
                         a {
-                            color: var(--text-heading-color);
+                            color: var(--text-white);
                             display: block;
                             font-size: 16px;
                             line-height: 26px;
@@ -135,7 +135,7 @@
                                     right: -16px;
                                     font-family: "Font Awesome 6 Pro";
                                     font-weight: 800;
-                                    color: var(--text-heading-color);
+                                    color: var(--text-white);
                                     transition: 0.3s;
                                     font-size: 14px;
                                 }
@@ -145,7 +145,7 @@
                             padding-right: 15px;
                             &:hover > a {
                                 &::before {
-                                    color: var(--text-heading-color);
+                                    color: var(--primary-color-2);
                                 }
                             }
                         }
@@ -172,7 +172,7 @@
                         position: relative;
                         z-index: 9;
                         display: block;
-                        color: var(--text-heading-color);
+                        color: var(--text-white);
                         font-size: 20px;
                         font-weight: 400;
                     }
@@ -257,7 +257,7 @@
                     i {
                         font-size: 24px;
                         height: 24px;
-                        color: var(--text-heading-color);
+                        color: var(--primary-color-1);
                     }
                 }
                 &-popup {
@@ -290,7 +290,7 @@
                             height: 25px;
                             display: block;
                             font-size: 25px;
-                            color: var(--text-heading-color);
+                            color: var(--text-white);
                             cursor: pointer;
                         }
                     }
@@ -300,9 +300,9 @@
                         right: 40px;
                         transform: rotate(0);
                         i {
-                            background: var(--primary-color-1);
+                            background: var(--primary-color-2);
                             width: 40px;
-                            color: var(--text-heading-color);
+                            color: var(--primary-color-1);
                             height: 40px;
                             line-height: 40px;
                             text-align: center;
@@ -360,7 +360,7 @@
                                         transition: 0.4s;
                                         color: var(--color-6);
                                         &:hover {
-                                            color: var(--primary-color-1);
+                                            color: var(--primary-color-2);
                                         }
                                     }
                                 }
@@ -394,8 +394,8 @@
                                     color: var(--text-white);
                                     transition: 0.4s;                        
                                     &:hover {
-                                        background: var(--primary-color-1);
-                                        color: var(--text-heading-color);
+                                        background: var(--primary-color-2);
+                                        color: var(--primary-color-1);
                                     }
                                 }
                             }
@@ -412,7 +412,7 @@
         left: 0;
         width: 100%;
         z-index: 99;
-        border-color: #FFFFFF21;
+        border-color: var(--overlay-white-13);
         .menu__bar i,
         .header__area-menubar-right-search-icon i,
         .header__area-menubar-center-menu ul li.menu-item-has-children > a::before,
@@ -420,14 +420,14 @@
             color: var(--text-white);
         }
         .header__area-menubar-center-menu ul li:hover > a {
-            color: var(--primary-color-1);
+            color: var(--primary-color-2);
             &::before {
-                color: var(--primary-color-1);
+                color: var(--primary-color-2);
             }
         }
     }
     &.three {
-        border-color: #FFFFFF21;
+        border-color: var(--overlay-white-13);
         background: var(--color-1);
         .menu__bar i,
         .header__area-menubar-right-search-icon i,
@@ -436,9 +436,9 @@
             color: var(--text-white);
         }
         .header__area-menubar-center-menu ul li:hover > a {
-            color: var(--primary-color-1);
+            color: var(--primary-color-2);
             &::before {
-                color: var(--primary-color-1);
+                color: var(--primary-color-2);
             }
         }
         .build_button {
@@ -449,7 +449,7 @@
                 color: var(--color-1);
                 i {
                     color: var(--color-1);
-                    background: #F1F1F1;
+                    background: var(--bg-white);
                 }
             }
         }
@@ -462,7 +462,7 @@
     top: 0;
     width: 100%;
     z-index: 99;
-    border-bottom: 1px solid #FFFFFF3D;
+    border-bottom: 1px solid var(--overlay-white-20);
     .header__area-menubar-center-menu {
         background: var(--bg-white);
         padding: 11px 25px;
@@ -563,15 +563,15 @@ Responsive Menu Css
                 }
                 &.mean-clicked::before {
                     content: "\f068";
-                    color: var(--text-heading-color);
+                    color: var(--primary-color-1);
                 }
                 &.mean-clicked,
                 &:hover {
-                    background: var(--primary-color-1);
+                    background: var(--primary-color-2);
                 }
             }
             &:hover {
-                color: var(--primary-color-1);
+                color: var(--primary-color-2);
                 background: none;
             }
 		}        
@@ -585,7 +585,7 @@ Responsive Menu Css
                     color: var(--text-white);
                     height: 48px;
                     &:hover {
-                        background: var(--primary-color-1);
+                        background: var(--primary-color-2);
                     }
                 }
             }
@@ -613,7 +613,7 @@ Responsive Menu Css
     padding: 12px 0; 
     width: 100%;
     &:hover {
-        color: var(--primary-color-1);
+        color: var(--primary-color-2);
     }
 }
 .menu__bar {
@@ -621,7 +621,7 @@ Responsive Menu Css
     i {
         font-size: 35px;
         cursor: pointer;
-        color: var(--text-heading-color);
+        color: var(--text-white);
     }
     &-popup {
         display: none;
@@ -663,9 +663,9 @@ Responsive Menu Css
             }
             .close {
                 i {
-                    background: var(--primary-color-1);
+                    background: var(--primary-color-2);
                     width: 40px;
-                    color: var(--text-heading-color);
+                    color: var(--primary-color-1);
                     height: 40px;
                     line-height: 40px;
                     text-align: center;

@@ -105,16 +105,17 @@
                         align-items: center;
                         justify-content: space-between;
                         border-radius: 5px;
-                        color: var(--color-1);
+                        color: var(--text-heading-color);
                         i {
                             font-size: 25px;
-                            color: var(--text-white);
+                            color: var(--primary-color-1);
                             transition: 0.4s;
                         }
                         &:hover {
-                            background: var(--primary-color-1);
+                            background: var(--primary-color-2);
+                            color: var(--primary-color-1);
                             i {
-                                color: var(--color-1);
+                                color: var(--primary-color-1);
                             }
                         }
                     }
@@ -146,8 +147,9 @@
                         border: 1px solid var(--border-color-1);
                         background: var(--bg-white);
                         &:hover {
-                            color: var(--color-1);
-                            background: var(--primary-color-1);
+                            background: var(--primary-color-2);
+                            border-color: var(--primary-color-2);
+                            color: var(--primary-color-1);
                         }                         
                     }
                 }
@@ -179,11 +181,11 @@
                         padding: 14px 20px;
                         border-radius: 6px;
                         justify-content: space-between;
-                        background: var(--color-1);
+                        background: var(--primary-color-1);
                         color: var(--text-white);
                         &:hover {
-                            color: var(--color-1);
-                            background: var(--primary-color-1);
+                            background: var(--primary-color-2);
+                            color: var(--primary-color-1);
                         }   
                         span {
                             float: right;

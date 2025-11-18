@@ -89,24 +89,42 @@ END TABLE OF CONTENTS
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 :root {
+    /* Typography */
     --body-font: "DM Sans", sans-serif;
     --heading-font: "Instrument Sans", sans-serif;
-    --body-color: #555855;
-    --text-heading-color: #222222;
+    
+    /* Theme Colors */
+    --primary-color-1: #014491;  /* Dark Blue - Primary brand color */
+    --primary-color-2: #fff173;  /* Yellow - Accent color */
+    
+    /* Text Colors */
+    --text-heading-color: #014491;
     --text-white: #FFFFFF;
+    --body-color: #555855;
+    
+    /* Background Colors */
     --bg-white: #FFFFFF;
-    --primary-color-1: #FFBF43;
-    --color-1: #222222;
-    --color-2: #F8F7F0;
-    --color-3: #EBEBEB;
-    --color-4: #EAB342;
-    --color-5: #4B4A4A;
-    --color-6: #CCCCCC;
-    --color-7: #313131;
-    --color-8: #282828;
-    --border-color-1: #EEEDE8;
-    --border-color-2: #CDD0CD;
-    --border-color-3: #474644;
+    
+    /* Supporting Colors */
+    --color-1: #222222;  /* Dark gray for text and backgrounds */
+    --color-2: #F8F7F0;  /* Off-white background */
+    --color-3: #EBEBEB;  /* Light gray */
+    
+    /* Border Colors */
+    --border-color-1: #EEEDE8;  /* Light border */
+    --border-color-2: #CDD0CD;  /* Medium border */
+    --border-color-3: #474644;  /* Dark border */
+    
+    /* Shadow Colors - Optimized for performance */
+    --shadow-primary: rgba(1, 68, 145, 0.1);
+    --shadow-primary-md: rgba(1, 68, 145, 0.15);
+    --shadow-light: rgba(0, 0, 0, 0.05);
+    --shadow-dark: rgba(0, 0, 0, 0.3);
+    
+    /* Overlay Colors */
+    --overlay-white-10: rgba(255, 255, 255, 0.1);
+    --overlay-white-13: rgba(255, 255, 255, 0.13);
+    --overlay-white-20: rgba(255, 255, 255, 0.2);
 }
 /*==========================================================================
 * Common Css
@@ -328,7 +346,7 @@ $list: left, center, right;
     font-weight: 600;
     line-height: 26px;
     text-transform: uppercase;
-    color: var(--color-1);
+    color: var(--text-white);
     background: var(--primary-color-1);
     border-radius: 50px 50px 50px 50px;
     padding: 8px 8px 8px 30px;
@@ -342,7 +360,7 @@ $list: left, center, right;
 		width: 30px;
 		height: 30px;
 		border-radius: 50%;
-		background: var(--color-1);
+		background: var(--primary-color-2);
 		transform-origin: 100% 50%;
 		transform: scale3d(1, 2, 1);
 		transition: transform 0.4s, opacity 0.4s;
@@ -352,8 +370,8 @@ $list: left, center, right;
 		position: relative;
 		z-index: 2;
 		transition: 0.4s;
-		color: var(--color-1);
-		background: var(--color-4);
+		color: var(--primary-color-1);
+		background: var(--primary-color-2);
 		font-size: 26px;
 		width: 44px;
 		height: 44px;
@@ -363,10 +381,10 @@ $list: left, center, right;
 		border-radius: 50px 50px 50px 50px;
 	}
 	&:hover {
-		color: var(--text-white);
+		color: var(--primary-color-1);
 		i {
 			color: var(--text-white);
-			background: var(--color-5);
+			background: var(--primary-color-1);
 			transform: rotate(45deg);
 		}
 		&::before {
@@ -523,7 +541,7 @@ $list: left, center, right;
 	}
 	100% {
 		transform: scale(.2);
-		background: var(--primary-color-3);
+		background: var(--primary-color-2);
 	}
 }
 /*==========================================================================

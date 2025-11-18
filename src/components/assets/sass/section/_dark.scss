@@ -8,15 +8,26 @@
 	display: none;
 }
 .dark-mode {
-    background: #1f1f1f;
-    --body-color: #CCCCCC;
-    --bg-white: #1e1e1e;
-    --color-1: #1c1c1c;
-    --color-2: #1e1e1e;
-    --text-heading-color: #ffffff;
-    --border-color-1: #383736;
-    --border-color-2: #383736;
-    --border-color-3: #383736;
+    /* Dark Mode Color Overrides */
+    --dark-bg-primary: #1f1f1f;
+    --dark-bg-secondary: #1e1e1e;
+    --dark-bg-tertiary: #1c1c1c;
+    --dark-bg-card: #242424;
+    --dark-bg-elevated: #343434;
+    --dark-text-primary: #ffffff;
+    --dark-text-secondary: #CCCCCC;
+    --dark-text-inverted: #222222;
+    --dark-border: #383736;
+    
+    background: var(--dark-bg-primary);
+    --body-color: var(--dark-text-secondary);
+    --bg-white: var(--dark-bg-secondary);
+    --color-1: var(--dark-bg-tertiary);
+    --color-2: var(--dark-bg-secondary);
+    --text-heading-color: var(--dark-text-primary);
+    --border-color-1: var(--dark-border);
+    --border-color-2: var(--dark-border);
+    --border-color-3: var(--dark-border);
     .light-n {
         display: inline-block;
     }
@@ -24,22 +35,22 @@
         display: none;
     }
     .process__area {
-        background: #222222;
+        background: var(--dark-text-inverted);
     }
     .choose__three-list-item {
-        background: #1f1f1f;
+        background: var(--dark-bg-primary);
     }
     .about__four-counter,
     .blog__four-item,
     .portfolio__four::after,
     .services__two .services__one-item > i,
     .experience__area-list-item {
-        background: #242424;
+        background: var(--dark-bg-card);
     }
     .header__area-menubar-right-sidebar-icon,
     .copyright__area.four .copyright__area-social ul li a i,
     .skill__area-item-inner {
-        background: #343434;
+        background: var(--dark-bg-elevated);
     }
     .brand__area,
     .banner__four-brand .scroll__slider,
@@ -51,12 +62,12 @@
     .copyright__area.four,
     .testimonial__three,
     .testimonial__two {
-        background: #1c1c1c;
+        background: var(--dark-bg-tertiary);
     }
     .header__four {
         .header__area-menubar-center-menu ul li.menu-item-has-children > a::before,
         .header__area-menubar-center-menu ul li a {
-            color: #ffffff;
+            color: var(--dark-text-primary);
         }
     }
     .header__area-menubar-center-menu ul li.menu-item-has-children > a::before,
@@ -71,7 +82,7 @@
     .portfolio__three-item-content h4,
     .banner__one-content-user h5,
     .banner__one-content h1 {
-        color: #222222;
+        color: var(--dark-text-inverted);
     }
     .cursor {
         #cursor-ball {
@@ -82,7 +93,7 @@
         }
     }
     .services__four-title .build_button:hover {
-        color: #ffffff;
+        color: var(--dark-text-primary);
     }
     .services__one-item:hover {
         background: var(--primary-color-1);

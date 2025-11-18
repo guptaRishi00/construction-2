@@ -46,7 +46,7 @@
                 top: 50%;
                 transform: translate(-50%, -50%);
                 span {
-                    background: #ffffff33;
+                    background: var(--overlay-white-20);
                     color: var(--text-white);
                 }
             }
@@ -60,7 +60,7 @@
     background: var(--color-1);
     &-left {
         .subtitle {
-            border-color: #474644;
+            border-color: var(--border-color-3);
             color: var(--text-white);
         }
         h2 {

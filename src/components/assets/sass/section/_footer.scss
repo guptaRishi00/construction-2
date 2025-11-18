@@ -2,11 +2,11 @@
 * Footer One CSS
 ==========================================================================*/
 .footer__one {
-    background: var(--color-1);
+    background: var(--primary-color-1);
     overflow: hidden;
     &-cta {
         padding: 80px 0;
-        border-bottom: 1px solid var(--border-color-3);
+        border-bottom: 1px solid var(--overlay-white-10);
         &-title {
             h2 {
                 color: var(--text-white);
@@ -18,13 +18,14 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            background: var(--primary-color-1);
-            color: var(--color-1);
+            background: var(--primary-color-2);
+            color: var(--primary-color-1);
             border-radius: 50%;
             font-size: 50px;
             transition: 0.4s;
             &:hover {
                 transform: rotate(45deg);
+                background: var(--text-white);
             }
         }
     }
@@ -57,7 +58,7 @@
         }
         &-address {
             h6 {
-                color: var(--color-6);
+                color: var(--text-white);
                 font-family: var(--body-font);
                 font-size: 20px;
                 font-weight: 400;
@@ -65,19 +66,22 @@
                 a {
                     transition: 0.4s;
                     &:hover {
-                        color: var(--primary-color-1);
+                        color: var(--primary-color-2);
                     }
                 }
             }
             h4 {
                 margin-top: 25px;
                 a {
-                    color: var(--primary-color-1);
+                    color: var(--primary-color-2);
                     font-family: var(--body-font);
                     font-size: 22px;
                     font-weight: 400;
                     text-decoration: underline;
                     line-height: 32px;
+                    &:hover {
+                        color: var(--text-white);
+                    }
                 }
             }
         }
@@ -95,12 +99,12 @@
                 margin: 0;
             }
             a {
-                color: var(--color-6);
+                color: var(--text-white);
                 transition: 0.4s;
                 font-size: 18px;
                 line-height: 28px;
                 &:hover {
-                    color: var(--primary-color-1);
+                    color: var(--primary-color-2);
                 }
             }
         }
@@ -110,7 +114,7 @@
 * Footer Two CSS
 ==========================================================================*/
 .footer__two {
-    background: var(--color-1);
+    background: var(--primary-color-1);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +131,7 @@
                 content: '';
                 width: 1px;
                 height: 250px;
-                background: var(--border-color-3);
+                background: var(--overlay-white-10);
                 left: -10px;
                 top: 0;
             }
@@ -137,9 +141,10 @@
                 max-width: 165px;
             }
             p {
-                color: var(--color-6);
+                color: var(--text-white);
                 max-width: 355px;
                 margin-top: 25px;
+                opacity: 0.9;
             }
             &-social {
                 margin-top: 30px;
@@ -158,14 +163,14 @@
                             height: 45px;
                             line-height: 45px;
                             text-align: center;
-                            background: var(--color-7);
+                            background: var(--overlay-white-10);
                             font-size: 15px;
                             border-radius: 50%;
                             color: var(--text-white);
                             transition: 0.4s;
                             &:hover {
-                                background: var(--primary-color-1);
-                                color: var(--color-1);
+                                background: var(--primary-color-2);
+                                color: var(--primary-color-1);
                             }
                         }
                     }
@@ -188,17 +193,19 @@
                     line-height: 55px;
                     text-align: center;
                     font-size: 20px;
-                    border: 1px solid var(--border-color-3);
+                    border: 1px solid var(--overlay-white-20);
                     border-radius: 50%;
-                    color: var(--primary-color-1);
+                    color: var(--primary-color-2);
                 }
                 &-info a {
-                    color: var(--color-6);
+                    color: var(--text-white);
                     max-width: 220px;
                     display: inline-block;
                     transition: 0.4s;
+                    opacity: 0.9;
                     &:hover {
-                        color: var(--primary-color-1);  
+                        color: var(--primary-color-2);
+                        opacity: 1;
                     }
                 }
             }
@@ -216,12 +223,13 @@
             }
             &-title {
                 span {
-                    color: var(--color-6);
+                    color: var(--text-white);
+                    opacity: 0.8;
                 }
                 h6 a {
                     color: var(--text-white);
                     &:hover {
-                        color: var(--primary-color-1);
+                        color: var(--primary-color-2);
                     }
                 }
             }
@@ -293,16 +301,20 @@
 * Copyright CSS
 ==========================================================================*/
 .copyright__area {
-    background: var(--color-1);
-    border-top: 1px solid var(--border-color-3);
+    background: var(--primary-color-1);
+    border-top: 1px solid var(--overlay-white-10);
     padding: 26px 0;
     &-content {
         p {
             margin: 0;
-            color: var(--color-6);
+            color: var(--text-white);
+            opacity: 0.9;
             a {
-                color: var(--primary-color-1);
+                color: var(--primary-color-2);
                 text-decoration: underline;
+                &:hover {
+                    color: var(--text-white);
+                }
             }
         }
     }
@@ -322,14 +334,14 @@
                     justify-content: center;
                     width: 45px;
                     height: 45px;
-                    background: var(--color-7);
+                    background: var(--overlay-white-10);
                     border-radius: 50%;
-                    color: var(--color-6);
+                    color: var(--text-white);
                     transition: 0.4s;
                     font-size: 14px;
                     &:hover {
-                        background: var(--primary-color-1);
-                        color: var(--color-1);
+                        background: var(--primary-color-2);
+                        color: var(--primary-color-1);
                     }
                 }
             }
@@ -340,13 +352,19 @@
         border-color: var(--border-color-2);
         p {
             color: var(--body-color);
+            a {
+                color: var(--primary-color-1);
+                &:hover {
+                    color: var(--primary-color-2);
+                }
+            }
         }
         .copyright__area-social ul li a i {
-            background: #EBE9DD;
+            background: var(--color-2);
             color: var(--text-heading-color);
             &:hover {
-                background: var(--primary-color-1);
-                color: var(--color-1);
+                background: var(--primary-color-2);
+                color: var(--primary-color-1);
             }
         }
     }

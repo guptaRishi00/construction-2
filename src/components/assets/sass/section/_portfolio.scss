@@ -31,12 +31,21 @@
             left: 0;
             z-index: 3;
             transition: 0.4s;
-            background: #FFBF43;
+            background: var(--primary-color-2);
             border-radius: 15px;
             padding: 45px 45px 45px 45px;
             margin: 0px 50px 30px 50px;
             opacity: 0;
             visibility: hidden;
+            h4 a {
+                color: var(--primary-color-1);
+                &:hover {
+                    color: var(--color-1);
+                }
+            }
+            span {
+                color: var(--primary-color-1);
+            }
         }
         &:hover .portfolio__one-item-content {
             transform: translateY(-20px);
@@ -76,10 +85,10 @@
                 }
             }
             > a i {
-                background: var(--primary-color-1);
+                background: var(--primary-color-2);
                 width: 55px;
                 height: 55px;
-                color: var(--color-1);
+                color: var(--primary-color-1);
                 display: inline-flex;
                 align-items: center;
                 justify-content: center;
@@ -88,6 +97,8 @@
                 transition: 0.4s;
                 &:hover {
                     transform: rotate(45deg);
+                    background: var(--primary-color-1);
+                    color: var(--primary-color-2);
                 }
             }
         }
@@ -120,7 +131,7 @@
     background: var(--color-1);
     &-title {
         .subtitle {
-            border-color: #474644;
+            border-color: var(--border-color-3);
             color: var(--text-white);
         }
         h2 {
@@ -139,25 +150,38 @@
             left: 0;
             z-index: 3;
             transition: 0.4s;
-            background: #FFBF43;
+            background: var(--primary-color-2);
             border-radius: 15px;
             padding: 0 45px 45px 45px;
             margin: 0px 50px 30px 50px;
             opacity: 0;
             visibility: hidden;
+            h4 a {
+                color: var(--primary-color-1);
+                &:hover {
+                    color: var(--color-1);
+                }
+            }
+            span {
+                color: var(--primary-color-1);
+            }
             a i {
                 width: 60px;
                 height: 60px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background: var(--color-1);
-                color: var(--text-white);
+                background: var(--primary-color-1);
+                color: var(--primary-color-2);
                 border-radius: 50%;
                 transition: 0.4s;
                 font-size: 30px;
                 margin-top: -30px;
                 margin-bottom: 20px;
+                &:hover {
+                    background: var(--color-1);
+                    color: var(--text-white);
+                }
             }
         }
         &:hover .portfolio__three-item-content {
@@ -248,12 +272,18 @@
         font-weight: 500;
         background: var(--bg-white);
         color: var(--text-heading-color);
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+        box-shadow: 0px 0px 20px 0px var(--shadow-light);
         border: 1px solid var(--border-color-1);
         padding: 10px 30px 10px 30px;
         margin: 3px 3px 3px 3px;
+        transition: 0.4s;
+        &:hover {
+            background: var(--primary-color-2);
+            color: var(--primary-color-1);
+            border-color: var(--primary-color-2);
+        }
         &.active {
-            color: var(--color-1);
+            color: var(--text-white);
             background: var(--primary-color-1);
             border-color: var(--primary-color-1);
         }
@@ -304,8 +334,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: var(--primary-color-1);
-            color: var(--color-1);
+            background: var(--primary-color-2);
+            color: var(--primary-color-1);
             border-radius: 50%;
             transition: 0.4s;
             font-size: 30px;
@@ -315,6 +345,10 @@
             visibility: hidden;
             opacity: 0;
             z-index: 2;
+            &:hover {
+                background: var(--primary-color-1);
+                color: var(--primary-color-2);
+            }
         }
         img {
             height: 380px;
@@ -335,7 +369,7 @@
             h5 {
                 color: var(--text-white);
                 a:hover {
-                    color: var(--primary-color-1);
+                    color: var(--primary-color-2);
                 }
             }
         }
