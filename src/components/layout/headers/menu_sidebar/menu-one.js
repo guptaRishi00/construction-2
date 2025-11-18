@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo1 from "../../../assets/img/logo-2.png";
+import logo1 from "../../../assets/logo/logo.svg";
 import ResponsiveMenu from "../responsive-menu";
 
 const MobileMenuOne = ({ isOpen, setIsOpen }) => {
@@ -7,7 +7,7 @@ const MobileMenuOne = ({ isOpen, setIsOpen }) => {
         <div className={`menu__bar-popup ${isOpen ? "show" : ""}`}>
             <div className="menu__bar-popup-top">
                 <div className="logo">
-                    <Link to="/"><img src={logo1} alt='logo' /></Link>
+                    <Link to="/"><img src={logo1} alt='QuadFour Infra Pvt Ltd' /></Link>
                 </div>
                 <div className="close" onClick={() => setIsOpen(false)}>
                     <i className="fal fa-times"></i>

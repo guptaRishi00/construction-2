@@ -1,7 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import logo1 from "../../assets/img/logo-3.png";
-import logo2 from "../../assets/img/logo-2.png";
+import logo from "../../assets/logo/logo.svg";
 import subscribeBg from "../../assets/img/page/subscribe.jpg";
 import Social from '../../data/social';
 
@@ -32,7 +31,7 @@ const FooterFour = () => {
                                 <div className="row">
                                     <div className="col-lg-4 col-sm-6">
                                         <div className="footer__four-widget mr-40">
-                                            <Link className="logo" to="/"><img className='dark-n' src={logo1} alt="image" /><img className='light-n' src={logo2} alt="image" /></Link>
+                                            <Link className="logo" to="/"><img className='dark-n' src={logo} alt="QuadFour Infra Pvt Ltd" /><img className='light-n' src={logo} alt="QuadFour Infra Pvt Ltd" /></Link>
                                             <h5>We’re Solutions for all construction</h5>
                                         </div>
                                     </div>

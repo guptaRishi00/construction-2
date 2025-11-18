@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/img/logo-2.png";
+import logo from "../../assets/logo/logo.svg";
 import Social from "../../data/social";
 
 const FooterOne = () => {
@@ -35,7 +35,7 @@ const FooterOne = () => {
                   <div className="col-lg-4 col-sm-6">
                     <div className="footer__one-widget mr-40">
                       <Link className="logo" to="/">
-                        <img src={logo} alt="logo" />
+                        <img src={logo} alt="QuadFour Infra Pvt Ltd" />
                       </Link>
                       <h5>We’re Solutions for all construction</h5>
                     </div>

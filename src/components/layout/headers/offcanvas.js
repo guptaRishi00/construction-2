@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Social from '../../data/social';
-import logo2 from "../../assets/img/logo-2.png";
+import logo2 from "../../assets/logo/logo.svg";
 
 const SideBar = ({ isOpen, setIsOpen }) => {
     return (
@@ -9,7 +9,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
                 <div className="sidebar-close-btn" onClick={() => setIsOpen(false)}><i className="fal fa-times"></i></div>
                 <div className="header__area-menubar-right-sidebar-popup-logo">
                 <Link to='/'>
-                    <img src={logo2} alt="logo" />
+                    <img src={logo2} alt="QuadFour Infra Pvt Ltd" />
                 </Link>
                 </div>
                 <p>Redefining the construction industry with innovative solutions, cuttin-edge technology and sustainable practices</p>

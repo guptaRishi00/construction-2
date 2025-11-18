@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import logo from "../../assets/img/logo-2.png";
+import logo from "../../assets/logo/logo.svg";
 import subscribeBg from "../../assets/img/page/banner-video.png";
 import Social from '../../data/social';
 import blogData from '../../data/blog-data';
@@ -33,7 +33,7 @@ const FooterTwo = () => {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="footer__two-widget">
                                 <div className="footer__two-widget-about">
-                                    <Link to="/"><img src={logo} alt="image" /></Link>
+                                    <Link to="/"><img src={logo} alt="QuadFour Infra Pvt Ltd" /></Link>
                                     <p>Redefining the construction industry with innovative solutions, cuttin-edge technology and sustainable practices</p>
                                     <div className="footer__two-widget-about-social">
                                         <Social />

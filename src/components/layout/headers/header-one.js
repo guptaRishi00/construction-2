@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo1 from "../../assets/img/logo-1.png";
+import logo1 from "../../assets/logo/logo.svg";
 import MainMenu from "./header-menu";
 import Search from "./search";
 import { useState } from "react";
@@ -18,7 +18,7 @@ const HeaderOne = () => {
             <div className="header__area-menubar-left one">
               <div className="header__area-menubar-left-logo">
                 <Link to="/">
-                  <img src={logo1} alt="logo" />
+                  <img src={logo1} alt="QuadFour Infra Pvt Ltd" />
                 </Link>
               </div>
             </div>
